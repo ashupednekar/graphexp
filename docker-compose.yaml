@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  igraphlearn:
+    image: 'igraphlearn'
+    command: 'python3 main.py'
+    container_name: 'igraphlearn'
+    volumes:
+      - ./:/learn
